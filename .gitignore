@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+*.env
+!.env.example
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local certificate storage (generated artifacts)
+storage/
+!storage/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
